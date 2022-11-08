@@ -1,10 +1,10 @@
 .statisticsContainer {
-    width: 60%;
-    margin-top: 15px;
+    max-width: 100%;
+    margin-top: 5vh;
     display: flex;
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 2%;
+    border-radius: 1.5%;
 }
 
 .title {
@@ -12,21 +12,20 @@
     padding: 10px;
     text-transform: uppercase;
     text-align: center;
-    color: #000;
+    overflow-wrap: break-word;
+    color: rgba(99, 98, 98, 0.885);
     font-weight: bold;
     font-size: 2.0rem;
-    border-bottom: 1px solid #d3d5e3;
 }
 
 .statList {
     width: 100%;
-    /* display: grid; */
-    /* grid-template-columns: repeat(5, 1fr); */
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
     gap: 0.01px;
+    
 }
 
 .statList>.statListItem,
@@ -37,14 +36,15 @@
     text-shadow: 0 0 3px #000;
     width: calc((100% - 0.04px) / 5);
     overflow-wrap: break-word;
+    border: 1px solid rgba(85, 87, 87, 0.475);
 }
 
 .statListItem:first-child {
-    border-radius: 0 0 0 5%;
+    border-radius: 0 0 0 3%;
 }
 
 .statListItem:last-child {
-    border-radius: 0 0 5%;
+    border-radius: 0 0 0 3%;
 }
 
 .statListItemNoTitle:first-child {
