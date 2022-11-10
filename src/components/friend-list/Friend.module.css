@@ -1,14 +1,14 @@
 .friendList {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     list-style: none;
 }
 
 .item {
-    width: 100%;
+    width: 50%;
     display: grid;
     grid-template-columns: 1fr 2fr 3fr;
-    margin-top: 5vh;
+    margin: 5vh auto;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 0.5rem;
